@@ -8,7 +8,7 @@ IF ERRORLEVEL ==2 GOTO Finish
 GOTO next
 
 :Compress
-compact /c /s
+compact /c /s /i
 
 :Finish
 echo The compress operation completed successfully.
